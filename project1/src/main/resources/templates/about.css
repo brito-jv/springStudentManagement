@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    /*background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(pietro-jeng-n6B49lTx7NM-unsplash.jpg);*/
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%), url(osman-rana-h8ZvH1Nf7Bk-unsplash.jpg);
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff0000d3
+;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #28e9d6
+;
+}
+
+.section{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+/*.image {
+    float: right;
+    width: 40%;
+
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+*/
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .contentt h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 19px;
+
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size:18px ;
+    line-height: 1.5;
+}
+.content-section .media{
+    margin: 40px 40px;
+
+}
+.content-section .media i{
+    color:blue;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .media i:hover{
+    color: #3d3d3d;
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    
+    position: relative;
+}
+
